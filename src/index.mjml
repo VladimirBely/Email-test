@@ -1,0 +1,142 @@
+<mjml>
+  <mj-head>
+    <mj-title>Apple Letter</mj-title>
+    <mj-preview>Apple Letter</mj-preview>
+    <mj-style>
+      .title {
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 49px;
+        color: #FFFFFF;
+        text-align: center;
+      }
+
+      .txt {
+        font-family: Verdana;
+        font-weight: normal;
+        color: #FFFFFF;
+      }
+
+      .advantages-section {
+        width: 400px;
+      }
+
+      .up {
+        font-size: 10px;
+        line-height: 12px;
+        margin: 0 auto 5px;
+      }
+
+      .value {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 36px;
+        margin: 0 auto 10px;
+      }
+
+      .advantages {
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 12px;
+        margin: 0 auto;
+      }
+
+      .link-bottom {
+        text-decoration: none;
+        font-size: 10px;
+        line-height: 12px;
+        color: #51ACFF;
+      }
+
+      @media screen and (max-width: 479px) {
+        .title {
+          font-size: 28px;
+        }
+
+        .advantages-section {
+          width: 150px;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body width="600px">
+    <mj-section background-color="#313131" padding="0">
+      <mj-column>
+        <mj-image width="20px" align="center" padding="20px" src="https://i.imgur.com/CALzVNi.png" />
+      </mj-column>
+    </mj-section>
+    <mj-wrapper css-class="columns" background-color="#141415" padding="0" padding-bottom="30px">
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text>
+            <h1 class="title">Our most stunning take on post-production</h1>
+          </mj-text>
+          <mj-button css-class="link" font-family="Verdana" font-size="15px" font-weight="bold" background-color="transparent" color="#51ACFF" line-height="18px" href="#">
+            Buy now >
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-image padding-left="40px" align="center" src="https://i.imgur.com/g1gtX7q.png" />
+        </mj-column>
+      </mj-section>
+      <mj-section css-class="advantages-section">
+        <mj-column>
+          <mj-text>
+            <p class="up txt">up to</p>
+            <p class="value txt">3.2x</p>
+            <p class="advantages txt">faster render</p>
+          </mj-text>
+          <mj-image align="left" src="https://i.imgur.com/Z8BFHdV.png" />
+        </mj-column>
+        <mj-column>
+          <mj-text>
+            <div class="up txt">up to</div>
+            <div class="value txt">8+</div>
+            <div class="advantages txt ">streams of 4k</div>
+          </mj-text>
+          <mj-image align="left" src="https://i.imgur.com/Z8BFHdV.png" />
+        </mj-column>
+        <mj-column>
+          <mj-text>
+            <div class="up txt ">up to</div>
+            <div class="value txt">2x</div>
+            <div class="advantages txt">pixel density</div>
+          </mj-text>
+          <mj-image align="left" src="https://i.imgur.com/Z8BFHdV.png" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-section background-color="#313131" padding="20px 20px 0">
+      <mj-group width="150px">
+        <mj-column>
+          <mj-button background-color="transparent" padding="0" css-class="social" href="#">
+            <img src="https://i.imgur.com/y5lSuHu.png" />
+          </mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-button background-color="transparent" padding="0" css-class="social" href="#">
+            <img src="https://i.imgur.com/J42DO1i.png" />
+          </mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-button background-color="transparent" padding="0" css-class="social" href="#">
+            <img src="https://i.imgur.com/1cPsS2G.png" />
+          </mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section css-class="bottom" background-color="#313131" padding="0 40px 20px">
+      <mj-column>
+        <mj-text font-family="Verdana" font-size="10px" font-weight="normal" line-height="18px" color="#7d7d7d" align="center">
+          All rights reserved. Copyright © 2019 Apple Inc. 1 Infinite Loop, Cupertino, CA 95014
+        </mj-text>
+        <mj-text font-family="Verdana" font-size="10px" font-weight="normal" line-height="18px" color="#7d7d7d" align="center">
+          This email was sent to hello@you.com because you indicated that you’d like to stay up to date on the latest features, services, support info and offers for Final Cut Pro. You can unsubscribe from Final Cut Pro emails <a class="link-bottom">here</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
